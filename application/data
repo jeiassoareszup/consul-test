@@ -1,0 +1,16 @@
+spring.datasource.url=jdbc:postgresql://darwin-database.gcp.zup.com.br:5432/acelera
+spring.datasource.username=acelera
+spring.datasource.password=acelera
+
+# Zup CORS
+zup.cors.enabled=true
+zup.cors.mapping=/**
+zup.cors.allowed-origins=http://localhost:3000,http://localhost:3001,http://localhost:8081,http://localhost:8080,https://darwin.continuousplatform.com
+zup.cors.allowed-methods=*
+
+darwin.villager.url=http://darwin-villager:8080
+darwin.deploy.url=http://darwin-deploy:3000
+darwin.moove.url=http://darwin-application:8080
+
+darwin.matcher.url=http://darwin-circle-matcher:8080
+darwin.matcher.path=/
